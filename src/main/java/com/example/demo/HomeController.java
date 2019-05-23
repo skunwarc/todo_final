@@ -16,13 +16,13 @@ public class HomeController {
     @Autowired
     TodoRepository todoRepository;
 
-    @RequestMapping("/2")
+    @RequestMapping("/aboutus")
     public String page2(){
-        return "page2";
+        return "aboutus";
     }
-    @RequestMapping("/3")
+    @RequestMapping("/contactus")
     public String page3(){
-        return "page3";
+        return "contactus";
     }
 
     @RequestMapping("/index")
